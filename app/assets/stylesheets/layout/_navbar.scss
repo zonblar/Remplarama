@@ -129,7 +129,7 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
-.below-navbar {
+.devise-form {
   margin-top: 100px;
   padding: 10px 15px;
   border-radius: 10px;
@@ -157,6 +157,9 @@
     background-color: transparent;
     color: black;
     border-bottom: 2px solid grey;
+  }
+  .form-actions input {
+    margin-top: 25px;
   }
 }
 .background {
