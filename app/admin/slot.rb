@@ -5,8 +5,15 @@ ActiveAdmin.register Slot do
 #
 # permit_params :list, :of, :attributes, :on, :model
 
-  permit_params :day, :status, :user_id, :booking_id, :created_at, :updated_at
+  permit_params :day, :status, :user_id, :created_at, :updated_at
 
+  index do
+    selectable_column
+    column :user_id
+    column :day
+    column :status
+    actions
+  end
 
 # or
 #
