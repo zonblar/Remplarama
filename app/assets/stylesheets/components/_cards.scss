@@ -127,6 +127,15 @@ hr {
   border-radius: 6px;
   height: 100px;
   margin: 5px 0px;
+  &-content {
+    height: 60px;
+  }
+  &-button-section {
+    display: flex;
+  }
+  &-button {
+    flex: 0 0 20%;
+  }
 }
 .btn-medium {
   color: #999999;
@@ -140,3 +149,4 @@ hr {
   opacity: 1;
   text-decoration: none;
   color: #999999;
+}
